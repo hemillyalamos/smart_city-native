@@ -15,7 +15,7 @@ export const FormularioUsuario: React.FC = () => {
         try {
             // Fazer a requisição de cadastro
             const response = await axios.post(
-                'http://10.0.2.2:8000/api/create_user',
+                'http://10.0.2.2:8000/api/create_user/',
                 {
                     username: usuario,
                     password: senha
